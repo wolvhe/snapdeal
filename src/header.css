@@ -15,9 +15,11 @@
 }
 .pre_headerMenu1 {
     margin-right: 30px;
+    cursor: pointer;
 }
 .pre_headerMenu0 {
     margin-left: 100px;
+    cursor: default;
 }
 /*  */
 .header_main{
@@ -57,7 +59,7 @@
 }
 .nav_menu{
     display: flex;
-    margin-left: 600px; 
+    margin-left: 400px; 
     color: azure;
     font-weight: lighter;
     font-size: 20px;  
@@ -67,6 +69,8 @@
     margin-right: 50px;
     display: flex;
     align-items: center;
+    width: max-content;
+    cursor: pointer;
 }
 .nav_signinText {
     margin-right: 10px;
@@ -76,6 +80,8 @@
     display: flex;
     margin-right: 80px;
     align-items: center;
+    width: max-content;
+    cursor: pointer;
 }
 .header__searchIcon {
     background-color: #cd9042;

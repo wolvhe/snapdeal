@@ -14,7 +14,7 @@ function Footer1() {
                         </svg>
                     </div>
                 <p>100% SECURE PAYMENTS</p>  
-                <p className="footer1_text">asdasdasd</p>
+                <p className="footer1_text">Moving your card details to a much more secured place</p>
                 </div>
                 <div class="col-sm footer_row_div">
                     <div className="footer_product_img">
@@ -24,7 +24,7 @@ function Footer1() {
                 </svg>
                     </div>
                 <p>TRUST PAY</p>                 
-                <p className="footer1_text">asdasdasd</p>
+                <p className="footer1_text">100% Payment Protection. Easy Return Policy</p>
                 </div>
                 <div className="col-sm footer_row_div">
                     <div className="footer_product_img">
@@ -33,7 +33,7 @@ function Footer1() {
                 </svg>
                     </div>
                 <p>HELP CENTER</p>
-                <p className="footer1_text">asdasdasd</p>
+                <p className="footer1_text">Got a question? Look no futher. Browse our FAQs or submit your query here.</p>
                 </div>
                 <div className="col-sm footer_row_div">
                     <div className="footer_product_img">
@@ -43,7 +43,7 @@ function Footer1() {
                 </svg>
                     </div>
                 <p>SHOP ON THE GO</p>
-                <p className="footer1_text">asdasdasd</p>
+                <p className="footer1_text">Download the app and get exciting app only offers at your fingertips</p>
                 </div>
             </div>
             </div>
