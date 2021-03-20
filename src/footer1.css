@@ -1,0 +1,30 @@
+.footer1_main {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    border: 1px solid;
+    border-color: lightgray;    
+    margin-top: 40px;
+    text-decoration: none;
+    border-width: 1px;
+}
+.row > .footer_row_div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    height: 200px;
+    align-items: center;
+    cursor: pointer;
+}
+.footer_product_img {
+    margin-top: 50px !important;
+    margin-bottom: 20px;
+}
+.footer1_text {
+    color: darkgray;
+    font-size: 16px;
+    margin-top: -10px;
+}

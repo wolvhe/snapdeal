@@ -1,0 +1,14 @@
+.footer3_main {
+    background-color: white;
+    height: 120px;
+    
+}
+.footer3_items {
+  
+display: flex;
+    
+}
+.footer3_payment{
+    width: 500px;
+    display: flex;
+}
