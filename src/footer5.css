@@ -1,0 +1,25 @@
+.footer5_main {
+    background-color: white;
+    height: 30px;
+    display: flex;
+    width: 100%;
+}
+.footer5_text {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-size: small;
+    color: gray;
+    margin-top: px;
+    min-width: 50%;
+}
+.footer5_text2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-size: small;
+    color: gray;
+    margin-top: px;
+    position: absolute;
+    right: 0%;
+}

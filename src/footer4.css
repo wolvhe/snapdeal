@@ -1,0 +1,17 @@
+.footer4_main {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-size: small;
+    color: gray;
+}
+.footer4_links > a {
+    text-decoration: none;
+    color: gray;
+}
+.footer4_row2_title {
+    font-size: 18px;
+    color: #344C55;
+    font-weight: 500;
+}

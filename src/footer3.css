@@ -1,14 +1,24 @@
 .footer3_main {
     background-color: white;
-    height: 120px;
-    
+    height: 120px;   
+    display: flex; 
+    text-align: left;
+    align-items: center;
 }
-.footer3_items {
-  
-display: flex;
-    
+.footer3_col1 {
+    margin-right: 200px;
+    margin-left: 200px;
 }
-.footer3_payment{
-    width: 500px;
+.footer3_col1_icons {
     display: flex;
+    cursor: pointer;
 }
+.footer3_col2_icons {
+    display: flex;
+    cursor: pointer;
+    
+}
+.footer3_icon {
+    margin-right: 30px;
+}
+
