@@ -264,3 +264,8 @@
 .navbar_loginbutton {
   margin-bottom: 15px;
 }
+.nav_signin_subtext {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}

@@ -45,10 +45,10 @@ function Header() {
                             <div class="navbar_dropdown">
             <p class="navbar_dropbtn" className="nav_signinText">Sign in</p>
             <div class="navbar_dropdown-content">
-                <a href="#">Your Account</a>
-                <a href="#">Your Orders</a>
-                <a href="#">Shortlist</a>
-                <a href="#">SD Cash</a>
+                <a href="#" className="nav_signin_subtext">Your Account</a>
+                <a href="#" className="nav_signin_subtext">Your Orders</a>
+                <a href="#" className="nav_signin_subtext">Shortlist</a>
+                <a href="#" className="nav_signin_subtext">SD Cash</a>
                 <hr />
                 <Button className="navbar_loginbutton">LOGIN</Button>
                 <br />
