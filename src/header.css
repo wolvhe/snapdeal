@@ -222,3 +222,45 @@
   .searchbar_css {
       min-width: 100px;
   }
+
+  .navbar_dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .navbar_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    min-width: 50px;
+    right: 0;
+    width: 50px;
+    z-index: 1;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  
+  .navbar_dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .navbar_dropdown-content a:hover {background-color: #ddd; }
+  
+  .navbar_dropdown:hover .navbar_dropdown-content {display: block; width: 200px;}
+  .div:hover{ 
+    transition-delay:1s;
+}
+
+.navbar_dropdown-content hr {
+  background-color: lightgray;
+  height: 0.1;
+}
+
+.navbar_loginbutton {
+  margin-bottom: 15px;
+}

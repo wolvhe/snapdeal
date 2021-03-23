@@ -16,6 +16,10 @@
     margin-left: 100px;
     height: fit-content;
 }
+.card_menu_body {
+    display: flex;
+    flex-direction: column;
+}
 .body_carousel {
     width: 900px;
     height: 500px;
