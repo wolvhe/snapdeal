@@ -3,25 +3,36 @@
     margin-top: 15px;
 }
 .main_bodyA {
-    display: flex;
-    min-width: fit-content;
+    display: flex;    
+    align-content: space-between;
+    margin-left: 100px;
+    
+}
+
+.main_bodyB {
+    width: 100%;
 }
 .main_bodyB_a {
     display: flex;
+    width: 100%;
+    
 }
 .card_menu {
-    font-size: small;
+    font-size: 12px;
     text-align: left;
     margin-right: 15px;
-    margin-left: 100px;
+    
     height: fit-content;
+    
 }
 .card_menu_body {
     display: flex;
     flex-direction: column;
+  
 }
 .body_carousel {
-    width: 900px;
+    width: 80%;
+    min-width: 40%;
     height: 500px;
     margin-right: 15px;
 }
@@ -36,8 +47,9 @@
     width: 100px;
 }
 .d-block {
-    width: 900px;
+    width: 100%;
     height: 335px;
+    min-width: 40%;
 }
 .card_buttonSubmit {
     margin-right: 10px;
@@ -53,4 +65,14 @@
 }
 .products {
     margin-bottom: 100px
+}
+.dropdown_bodymenu {
+    min-width: 20%;
+    cursor: pointer;
+    width: 200px;
+}
+.dropdown_bodymenuTitle {
+    font-weight: 500;
+    color: gray;
+    width: 200px;
 }

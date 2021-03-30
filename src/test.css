@@ -1,31 +1,109 @@
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
+body {
+    background: #eee
+}
+.container {
+    width: 100%;
+}
+.wrapper {
+    margin-top: 30px
+}
+
+.product_card {
+    border: 1px solid #eee;
+    cursor: pointer;
     background-color: white;
-    min-width: 160px;
-    top: 0;
-    left: 130px;
-    z-index: 1;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-  }
-  
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd; }
-  
-  .dropdown:hover .dropdown-content {display: block; width: 200px;}
-  .div:hover{ 
-    transition-delay:1s;
+    border-radius: 5px;
+}
+
+.weight {
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+
+.buttons {
+    padding: 10px;
+    background-color: #d6d4d44f;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 7px;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+
+
+.cart-button {
+    height: 48px
+}
+
+.cart-button:focus {
+    box-shadow: none
+}
+
+.cart {
+    position: relative;
+    height: 48px !important;
+    width: 50px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 1s ease-in-out;
+    overflow: hidden
+}
+
+
+
+@keyframes item {
+    0% {
+        opacity: 1;
+        top: 30%;
+        left: 30%
+    }
+
+    25% {
+        opacity: 1;
+        left: 26%;
+        top: 0%
+    }
+
+    50% {
+        opacity: 1;
+        left: 23%;
+        top: -22%
+    }
+
+    75% {
+        opacity: 1;
+        left: 19%;
+        top: -18%
+    }
+
+    100% {
+        opacity: 1;
+        left: 14%;
+        top: 28%
+    }
+}
+
+.product_card:hover .buttons {
+    opacity: 1
+}
+
+.product_card:hover .weight {
+    margin-top: 10px;
+}
+
+
+.strikeText {
+    text-decoration: line-through;
+    color: grey;
+}
+.rateText {
+    font-size: 20px;
 }
